@@ -1,0 +1,30 @@
+/* Temel Ayarlar */
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 sütun */
+  gap: 16px; /* Sütunlar ve satırlar arasında boşluk */
+  padding: 16px;
+}
+
+.contactItem {
+  background: #fff;
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contactItem:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.empty {
+  text-align: center;
+  color: #666;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 20px;
+}
